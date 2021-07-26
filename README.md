@@ -9,6 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ 
 
 ## Build
 
@@ -25,3 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Lazy loading component
+My info component is a lazy loading component. When user click header part aboutme button, then Myinfo page will appear.
+
+## used in memory web API component
+
+To load user personal details implimented In memory web api.
+
