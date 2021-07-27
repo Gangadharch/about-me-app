@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="container cardalign">
+      <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
+        <mat-card *ngFor="let member of members" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)" >
+          <mat-card-header>
+            <mat-card-title>{{member.title}}</mat-card-title>
+            <mat-card-subtitle>{{member.subtitle}}</mat-card-subtitle>
+          </mat-card-header>
+          <div class="zoom-effect-container">
+            <div class="image-card">
+              <img class="img-hover-zoom img-hover-zoom--xyz" mat-card-image [src]="member.url" alt="Photo of {{member.title}}">
+            </div>
+          </div>
+          <mat-card-content>
+            <p>
+              {{member.content}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+   
+</div>

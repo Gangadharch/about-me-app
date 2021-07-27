@@ -1,0 +1,89 @@
+<div class="jumbotron ">
+    <div class="container ">
+        <mat-card *ngFor="let hero of selfIntro">
+            <div class="fullcardPadding divBottomlne">
+                <div class="namealign">
+                    <h1 class="bigfont">{{hero.name}}</h1>
+                    <h2>{{hero.college}}</h2>
+                    <mat-icon> email</mat-icon><i class="icontextSpace">{{hero.email}}</i>
+                    <mat-icon> phone</mat-icon><i class="icontextSpace">{{hero.Number}}</i>
+                    <mat-icon> location_on</mat-icon><i class="icontextSpace">{{hero.location}}</i>
+                </div>
+                <div>
+                    <div mat-card-avatar class="example-header-image"></div>
+                </div>
+            </div>
+            <div class="fullcardPadding ">
+                <div>
+                    <span>
+                        <h1 class="bigfont ">Employment History</h1>
+                        <h2><mat-icon>work</mat-icon>Sr Front-End Developer</h2>
+                        <p class="icontextSpace">Deloitte USI</p>
+                        <mat-icon> date_range</mat-icon><i class="icontextSpace">June 2019 - Present</i>
+                        <mat-icon> location_on</mat-icon><i class="icontextSpace">Hyderabad, Gachibowli</i>
+                    </span>
+                    <span>
+                        <h2><mat-icon>work</mat-icon> Associate Consultant</h2>
+                        <p class="icontextSpace">Capgemini Information technology</p>
+                        <mat-icon> date_range</mat-icon><i class="icontextSpace">June 2018 - June 2019</i>
+                        <mat-icon> location_on</mat-icon><i class="icontextSpace">Hyderabad, Gachibowli</i>
+                    </span>
+                    <span>
+                        <h2><mat-icon>work</mat-icon> Full-stack Developer</h2>
+                        <p class="icontextSpace">Gagri Global IT services</p>
+                        <mat-icon> date_range</mat-icon><i class="icontextSpace">January 2016 - june 2018</i>
+                        <mat-icon> location_on</mat-icon><i class="icontextSpace">Hyderabad, Malkajgiri</i>
+                    </span>
+                    <span>
+                        <h2><mat-icon>work</mat-icon> Full-stack Developer</h2>
+                        <p class="icontextSpace">CRP Technology's</p>
+                        <mat-icon> date_range</mat-icon><i class="icontextSpace"> January 2014 - October 2015</i>
+                        <mat-icon> location_on</mat-icon><i class="icontextSpace">Hyderabad, Alwal</i>
+                    </span>
+                    <span class="topPadding">
+                        <h1 class="bigfont ">Technical Skills</h1>
+                        <p><mat-icon> laptop</mat-icon><i class="icontextSpace">Scripting : </i> Javascript, Jquery, Angular</p>
+                        <p><mat-icon> laptop</mat-icon><i class="icontextSpace">MarkUp : </i>HTML, CSS, Boostrap</p>
+                        <p><mat-icon> laptop</mat-icon><i class="icontextSpace">Language : </i> C# </p>
+                        <p><mat-icon> laptop</mat-icon><i class="icontextSpace">Database : </i> SQL, Maria DB,</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h1 class="bigfont ">Education</h1>
+                        <h2><mat-icon>library_books</mat-icon>B.E (Computer Science)</h2>
+                        <p class="icontextSpace">andhra university college of engineering</p>
+                        <mat-icon> date_range</mat-icon><i class="icontextSpace"> May 2009- June 2013</i>
+                        <mat-icon> location_on</mat-icon><i class="icontextSpace">Visakhapatnam</i>
+                    </span>
+                    <span>
+                        <h2><mat-icon>library_books</mat-icon>Board Of intermediate</h2>
+                        <p class="icontextSpace">Sri Sai Krishna Junior college</p>
+                        <mat-icon> date_range</mat-icon><i class="icontextSpace"> May 2007- June 2009</i>
+                        <mat-icon> location_on</mat-icon><i class="icontextSpace">srikakulam</i>
+                    </span>
+                    <span>
+                        <h2><mat-icon>library_books</mat-icon>SSC</h2>
+                        <p class="icontextSpace">Government Higher Secondary School</p>
+                        <mat-icon> date_range</mat-icon><i class="icontextSpace"> May 2009- June 2013</i>
+                        <mat-icon> location_on</mat-icon><i class="icontextSpace">Visakhapatnam</i>
+                    </span>
+                    <span class="topPadding">
+                        <h1 class="bigfont ">Achievements</h1>
+                        <p><mat-icon> bookmark_border</mat-icon><i class="icontextSpace">Received Sport Award's in Deloitte</i></p>
+                        <p><mat-icon> bookmark_border</mat-icon><i class="icontextSpace">Received Best Client Support certificate with in a team</i></p>
+                    </span>
+                    <span class="topPadding">
+                        <h1 class="bigfont ">Strengths</h1>
+                        <mat-chip-list class="topPadding">
+                            <mat-chip>Hard-working</mat-chip>
+                            <mat-chip>Flexibility</mat-chip>
+                            <mat-chip>Focused</mat-chip>
+                            <mat-chip>Accent fish</mat-chip>
+                          </mat-chip-list>
+                    </span>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</div>
