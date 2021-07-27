@@ -12,7 +12,7 @@ Style's CSS
 2) In memory web API
 
 ## Steps to run this App
-1) Clone this repo 
+1) Clone this repo into local machine
 2) Open Visual code to load cloned code
 3) navigate to "about-me-app folder" and run "NPM install" to generate all packages node modules
 4) Once node-modules installed in local setup, next need to ng serve command to run application in web browser.
